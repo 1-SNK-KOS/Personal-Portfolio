@@ -39,7 +39,7 @@ function NavBar() {
 
     return (
         <Router>
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="#home">
                         <img src={logo} alt='LOGO' />
