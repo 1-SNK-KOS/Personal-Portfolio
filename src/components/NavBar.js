@@ -41,8 +41,8 @@ function NavBar() {
         <Router>
             <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
                 <Container>
-                    <Navbar.Brand href="#home">
-                        <img src={logo} alt='LOGO' />
+                    <Navbar.Brand href="/">
+                        <img src={logo} alt='Logo'/>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
                         <span className='navbar-toggler-icon'></span>
@@ -72,7 +72,7 @@ function NavBar() {
                                 <a href='#'><img src={navIcon3} alt="" /></a>
                             </div>
                             <HashLink to='#connect'>
-                                <button className='connect' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                                <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                             </HashLink>
                         </span>
                     </Navbar.Collapse>

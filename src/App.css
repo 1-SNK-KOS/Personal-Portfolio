@@ -1,24 +1,21 @@
-/* Custom Font CSS */
+/************ Custom Font ************/
 @font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
-  font-weight: 700;
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
 }
 
-@font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Medium.ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Centra;
-  src: url('./assets/font/CentraNo2-Book.ttf');
-  font-weight: 400;
-}
-
-/* Default CSS */
-
+/************ Default Css ************/
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +33,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important
+  font-family: 'Centra', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,7 +55,7 @@ a:hover {
 
 img {
   width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 button {
@@ -70,29 +67,21 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
-@media (min-width: 1700px) {
-  main.container {
-    max-width: 100%;
-    padding : 0 150px;
-  }
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
 }
 
-
-
-
-
 p.success {
-  color: green;
+	color: green;
 }
 
 p.danger {
-  color: red;
+	color: red;
 }
-
-
-
-/* Navbar CSS */
-
+/************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -106,7 +95,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 9% ;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
