@@ -1,16 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar, Banner, Skills, Projects, Contact, Footer } from "./components/index";
+import { NavBar, Banner } from "./components/index";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
+      {/* <Skills />
       <Projects />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
